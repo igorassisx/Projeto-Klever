@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+body {
+    background-color: #13152A;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+}
+
+img#logo {
+    width: 200px;
+    height: 200px;
+}
+
+div {
+    font-size: 2em;
+}
+
+div#cabecalho {
+    display: inline-block;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+div#cabecalho > img#estrela {
+    width: 100px;
+    height: 50px;
+    margin-bottom: -10px;
+} 
+
+div#cabecalho > p {
+    display: inline-block;
+    padding: 10px;
+    margin-left: -37px;
+    margin-right: 70px;
+}
+
+div#cabecalho > button {
+    background-color: #AA33B5;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.5em;
+    padding: 6px;
+    border: none;
+}
+
+div#tokens {
+    display: inline-block;
+}
+
+div#balance {
+    display: inline-block;
+    margin-left: 200px;
+    text-align: right;
+}
+
+p.pequeno {
+    font-size: 0.5em;
+    text-align: right;
+}
+
+.editar {
+    height: 20px;
+    width: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
