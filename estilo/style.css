@@ -39,13 +39,38 @@ div#cabecalho > p {
     margin-right: 70px;
 }
 
-div#cabecalho > button {
+section > div.add-edit{
+    display: inline-block;
+    margin-right: 200px;
+    font-size: 1.3em;
+}
+
+section > div#voltar {
+    display: inline-block;
+}
+
+button {
     background-color: #AA33B5;
     border-radius: 5px;
     color: white;
     font-size: 0.5em;
     padding: 6px;
     border: none;
+}
+
+button#cinza {
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.5em;
+    padding: 5px;
+    border: none;
+    font-size: 0.5em;
+}
+
+button:hover {
+    background-color: #13152A;
+    transition: 0.5s;
 }
 
 div#tokens {
@@ -69,13 +94,38 @@ p.pequeno {
 
 }
 
-a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+section#formulario > form {
+    margin-top: 20px;
+    margin-left: -230px;
+    padding: 10px;
 }
 
-a:hover {
-    text-decoration: underline;
+form > input {
+    padding: 8px;
+    border-radius: 7px;
+    border: none;
+    width: 410px;
+    margin-top: 10px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
 
+form#token-form > label {
+    font-size: 1em;
+    margin-right: 110px;
+    
+}
+
+button#salvar {
+    font-size: 1em;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 220px;
+}
+
+button#remove {
+    background-color: red;
+    font-size: 1em;
+    margin-left: 253px;
+    margin-right: 50px;
 }
